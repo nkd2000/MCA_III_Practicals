@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MCA_III_Practicals.Program11</StartupObject>
+    <StartupObject>MCA_III_Practicals.Program19</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -72,6 +72,42 @@
     <Compile Include="Program13.Designer.cs">
       <DependentUpon>Program13.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program14.Designer.cs">
+      <DependentUpon>Program14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program15.Designer.cs">
+      <DependentUpon>Program15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program16.Designer.cs">
+      <DependentUpon>Program16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program17.Designer.cs">
+      <DependentUpon>Program17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program18.Designer.cs">
+      <DependentUpon>Program18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program19.Designer.cs">
+      <DependentUpon>Program19.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +119,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Program13.resx">
       <DependentUpon>Program13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program14.resx">
+      <DependentUpon>Program14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program15.resx">
+      <DependentUpon>Program15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program16.resx">
+      <DependentUpon>Program16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program17.resx">
+      <DependentUpon>Program17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program18.resx">
+      <DependentUpon>Program18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program19.resx">
+      <DependentUpon>Program19.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
