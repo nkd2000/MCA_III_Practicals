@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MCA_III_Practicals.Program19</StartupObject>
+    <StartupObject>MCA_III_Practicals.Programm27</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="nkdDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nkdDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Program01.cs" />
     <Compile Include="Program02.cs" />
@@ -108,10 +113,68 @@
     <Compile Include="Program19.Designer.cs">
       <DependentUpon>Program19.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program20.Designer.cs">
+      <DependentUpon>Program20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program21.Designer.cs">
+      <DependentUpon>Program21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program22.Designer.cs">
+      <DependentUpon>Program22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program23.cs" />
+    <Compile Include="Program24_Std_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program24_Std_Registration.Designer.cs">
+      <DependentUpon>Program24_Std_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program24_Std_Registration_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program24_Std_Registration_show.Designer.cs">
+      <DependentUpon>Program24_Std_Registration_show.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program26.cs" />
+    <Compile Include="Programm27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programm27.Designer.cs">
+      <DependentUpon>Programm27.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="nkdDataSet.xsc">
+      <DependentUpon>nkdDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="nkdDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>nkdDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="nkdDataSet.xss">
+      <DependentUpon>nkdDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Program12.resx">
@@ -137,6 +200,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Program19.resx">
       <DependentUpon>Program19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program20.resx">
+      <DependentUpon>Program20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program21.resx">
+      <DependentUpon>Program21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program22.resx">
+      <DependentUpon>Program22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program24_Std_Registration.resx">
+      <DependentUpon>Program24_Std_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program24_Std_Registration_show.resx">
+      <DependentUpon>Program24_Std_Registration_show.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programm27.resx">
+      <DependentUpon>Programm27.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
